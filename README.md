@@ -1,7 +1,7 @@
 # Inventory Management System – Codedivas
 
 This is a **group project** by Team **Codedivas**.
-The system helps manage products in a small shop or warehouse. It allows adding, removing, updating, and reporting on products efficiently.
+The system helps manage products in a small shop or warehouse. It allows adding, removing, updating, and reporting on products using **basic JavaScript concepts** (objects, arrays, functions, loops, if/else).
 
 ---
 
@@ -14,24 +14,14 @@ The system helps manage products in a small shop or warehouse. It allows adding,
 
 ---
 
-
 ## Project Structure
 
 ```
 Codedivas-inventory-management-system/
 │
-├── src/                  # Main project source code
-│   ├── index.js          # Entry point
-│   └── modules/          # Features/components
-│
-├── tests/                # Testing files
-│   └── example.test.js
-│
-├── docs/                 # Documentation/screenshots
-│
-├── .gitignore
-├── README.md
-└── CONTRIBUTING.md       # Contribution guidelines
+├── index.html     # Main HTML file (open in browser)
+├── index.js       # JavaScript file (logic and features)
+└── README.md      # Project documentation
 ```
 
 ---
@@ -45,58 +35,37 @@ git clone https://github.com/MercyOyekemisola/Codedivas-inventory-management-sys
 cd Codedivas-inventory-management-system
 ```
 
-### 2. Create a Branch (Work on Your Section)
+### 2. Open the Project in a Browser
 
-```bash
-git checkout -b feature-yourname-task
-```
-
-Example:
-
-```bash
-git checkout -b feature-jane-add-product
-```
-
-### 3. Make Changes and Commit
-
-```bash
-git add .
-git commit -m "Added addProduct function"
-```
-
-### 4. Push Your Branch
-
-```bash
-git push origin feature-yourname-task
-```
-
-### 5. Open a Pull Request
-
-Go to GitHub → open a PR to merge your branch into `main`.
+1. Open the folder.
+2. Double-click **index.html**.
+3. Right-click → **Inspect → Console** to see the outputs.
 
 ---
 
-## Contribution Rules
+## How It Works
 
-* Work only inside your **branch** (don’t push directly to `main`).
-* Use **clear commit messages** (e.g., `Added removeProduct function`).
-* Create a **Pull Request** and wait for review before merging.
-* Keep your branch updated with `main` before pushing changes:
+* Products are stored as **objects** inside an **array (`inventory`)**.
+* Core functions include:
 
-```bash
-git checkout main
-git pull origin main
-git checkout your-branch
-git merge main
-```
+  * `addProduct(product)`
+  * `removeProduct(productId)`
+  * `updateStock(productId, newQuantity)`
+  * `generateReport()`
+* Test cases are included at the bottom of `index.js`.
+
+When you open the console, you will see:
+
+* New product being added.
+* A product removed.
+* Stock updated.
+* A final inventory report with totals and low-stock items.
 
 ---
 
 ## Team Members
 
-* Mercy Oyekale - hoyekemisola1@outlook.com
-* Jane Ndafia - janendafia82@outlook.com
-* Happiness Hassan - hassan.happiness@outlook.com
-* Hauwa Idris - hauwaabubakar1531@outlook.com
-
----
+* Mercy Oyekale - [hoyekemisola1@outlook.com](mailto:hoyekemisola1@outlook.com)
+* Jane Ndafia - [janendafia82@outlook.com](mailto:janendafia82@outlook.com)
+* Happiness Hassan - [hassan.happiness@outlook.com](mailto:hassan.happiness@outlook.com)
+* Hauwa Idris - [hauwaabubakar1531@outlook.com](mailto:hauwaabubakar1531@outlook.com) 
