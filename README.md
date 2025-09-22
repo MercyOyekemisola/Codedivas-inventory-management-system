@@ -1,8 +1,5 @@
 # Inventory Management System – Codedivas
 
-<<<<<<< HEAD
-This is a **group project** by Team **Codedivas**.
-The system helps manage products in a small shop or warehouse. It allows adding, removing, updating, and reporting on products using **basic JavaScript concepts** (objects, arrays, functions, loops, if/else).
 =======
 This is a **group project** by Team **Codedivas**.  
 The system helps manage products in a small shop or warehouse. It allows adding, removing, updating, and reporting on products using basic **JavaScript concepts** (objects, arrays, functions, loops, if/else).
